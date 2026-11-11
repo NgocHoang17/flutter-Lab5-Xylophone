@@ -1,8 +1,16 @@
 # Xylophone
 
-B?y ph?m m?u ph?t b?y n?t WAV b?ng audioplayers.
+Ứng dụng đàn Xylophone gồm bảy phím màu, phát âm thanh bằng audioplayers.
 
-D? ?n Flutter ??c l?p, d?ng Flutter 3.38.6 / Dart 3.10.7.
+Dự án Flutter độc lập, dùng Flutter 3.38.6 / Dart 3.10.7.
+
+## Chức năng
+
+- Bảy phím tương ứng với các nốt Đô, Rê, Mi, Fa, Sol, La, Si.
+- Phát các file WAV thực từ assets/audio/.
+- Có hiệu ứng khi nhấn phím và thông báo khi phát âm thanh thất bại.
+
+## Chạy và kiểm tra
 
 ```powershell
 flutter pub get
@@ -11,4 +19,5 @@ flutter test
 flutter run -d chrome
 ```
 
-T?i nguy?n c?n thi?t ?? c? s?n trong d? ?n. ?? ki?m tra b?ng Flutter 3.38.6 / Dart 3.10.7: analyze, unit/widget test v? build web.
+Tài nguyên cần thiết đã có sẵn trong dự án. Đã kiểm tra bằng analyze, unit/widget test và build web.
+

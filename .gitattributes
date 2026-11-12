@@ -1,0 +1,11 @@
+# Exclude Flutter platform scaffolding from GitHub language statistics only.
+# Keep these files tracked and visible in diffs for normal builds and review.
+android/** -linguist-detectable
+ios/** -linguist-detectable
+linux/** -linguist-detectable
+macos/** -linguist-detectable
+windows/** -linguist-detectable
+web/** -linguist-detectable
+
+# Application logic and tests remain counted as Dart.
+*.dart linguist-detectable

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
+// Flutter application entry point.
 void main() => runApp(const XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {

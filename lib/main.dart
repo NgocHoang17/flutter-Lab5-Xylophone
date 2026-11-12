@@ -77,7 +77,7 @@ class _XylophonePageState extends State<XylophonePage> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: AppBar(title: const Text('XYLOPHONE / 05')),
+    appBar: AppBar(title: const Text('XYLOPHONE ')),
     body: SafeArea(
       child: Center(
         child: ConstrainedBox(
